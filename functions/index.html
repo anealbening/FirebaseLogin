@@ -30,7 +30,7 @@
     $('#btnLogout').click(function(){
       firebase.auth().signOut().then(function(){
         clearCookie('__session');
-        window.location.replace('/FirebaseTest/public/login/index.html');
+        window.location.replace('/FirebaseLogin/public/login/index.html');
       });
     });
   });
