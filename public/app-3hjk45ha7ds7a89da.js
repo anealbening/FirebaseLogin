@@ -4,13 +4,13 @@ function clearCookie (name) {
 
 function app(firebase) {
   var config = {
-    apiKey: "AIzaSyAeCayXNP_MLp2Evf0NYkCsVaLIyObR5MY",
-    authDomain: "storagedemoaneal.firebaseapp.com",
-    databaseURL: "https://storagedemoaneal-default-rtdb.europe-west1.firebasedatabase.app",
-    projectId: "storagedemoaneal",
-    storageBucket: "storagedemoaneal.appspot.com",
-    messagingSenderId: "411908610197",
-    appId: "1:411908610197:web:946a3482a33ad3b436a39c"
+    apiKey: "AIzaSyDJE76ApbljnAdkCdu7HgYQMSr1dJ_cvWs",
+    authDomain: "anealprofile.firebaseapp.com",
+    databaseURL: "https://anealprofile-default-rtdb.firebaseio.com",
+    projectId: "anealprofile",
+    storageBucket: "anealprofile.appspot.com",
+    messagingSenderId: "105114479682",
+    appId: "1:105114479682:web:d24ede78b7799f302191db"
   };
   var app = firebase.initializeApp(config);
   firebase.auth(app).setPersistence(firebase.auth.Auth.Persistence.LOCAL);
